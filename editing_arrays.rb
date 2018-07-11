@@ -1,4 +1,4 @@
-rainbow_colors = ["yellow","default","light_cyan"]
+RAINBOW_COLORS = ["yellow","default","light_cyan"]
 
 
 RAINBOW_COLORS[0]=1
@@ -8,7 +8,7 @@ def change_rainbow_colors
   
   RAINBOW_COLORS[1]="light_red"
   
-  rainbow_colors[2]="light_yellow"
+  RAINBOW_COLORS[2]="light_yellow"
   return RAINBOW_COLORS
 end
 
