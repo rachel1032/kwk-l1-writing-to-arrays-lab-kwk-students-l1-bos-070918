@@ -1,15 +1,15 @@
 rainbow_colors = ["yellow","default","light_cyan"]
 
 
-rainbow_colors[0]=1
+RAINBOW_COLORS[0]=1
 
 def change_rainbow_colors
-  rainbow_colors[0]="red"
-  puts.rainbow_colors
-  rainbow_colors[1]="light_red"
-  puts.rainbow_colors
+  RAINBOW_COLORS[0]="red"
+  
+  RAINBOW_COLORS[1]="light_red"
+  
   rainbow_colors[2]="light_yellow"
-  puts.rainbow_colors
+  return RAINBOW_COLORS
 end
 
 def add_colors
